@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Farah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               <a href="index.html"><h1>Farah Ben Abdallah</h1></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div class="container">
+            <h2 class="page-title">Quiz sur mon Profil</h2>
+            <p class="text-center" style="margin-bottom: 2rem; color: var(--dark-color);">
+                Testez vos connaissances sur mon parcours et mes compétences avec ce quiz de 10 questions.
+            </p>
+            
+            <div class="quiz-container">
+                <form id="quizForm">
+                    <div class="question">
+                        <h3>1. Quelle carte a été utilisée dans mon projet IoT?</h3>
+                        <label class="option">
+                            <input type="radio" name="q1" value="a"> Raspberry Pi
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="b"> ESP32
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="c"> Arduino
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="d"> STM32
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>2. Quel capteur a été utilisé dans mon projet Arduino?</h3>
+                        <label class="option">
+                            <input type="radio" name="q2" value="a"> Capteur de pluie
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="b"> Capteur de température
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="c"> Capteur d'humidité
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="d"> Capteur de mouvement
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>3. Combien de langues parle-je couramment?</h3>
+                        <label class="option">
+                            <input type="radio" name="q3" value="a"> 2 langues
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="b"> 3 langues
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="c"> 4 langues
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="d"> 5 langues
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>4. En quelle année ai-je rejoint le Club Robotics?</h3>
+                        <label class="option">
+                            <input type="radio" name="q4" value="a"> 2023
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="b"> 2024
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="c"> 2025
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="d"> 2026
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>5. Quel langage de programmation j'utilise pour le développement web frontend?</h3>
+                        <label class="option">
+                            <input type="radio" name="q5" value="a"> JavaScript
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="b"> Python
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="c"> Java
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="d"> C++
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>6. À quel club universitaire j'appartiens?</h3>
+                        <label class="option">
+                            <input type="radio" name="q6" value="a"> Club Art
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q6" value="b"> Club Robotics
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q6" value="c"> Club Sport
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q6" value="d"> Club Théâtre
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>7. Quel est mon loisir principal mentionné dans mon CV?</h3>
+                        <label class="option">
+                            <input type="radio" name="q7" value="a"> Danse
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q7" value="b"> Équitation
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q7" value="c"> Guitare
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q7" value="d"> Lecture
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>8. Où est situé mon institut de formation actuel?</h3>
+                        <label class="option">
+                            <input type="radio" name="q8" value="a"> Sfax
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q8" value="b"> Tunis
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q8" value="c"> Sousse
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q8" value="d"> Gabès
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>9. Quelle est ma filière d'étude actuelle?</h3>
+                        <label class="option">
+                            <input type="radio" name="q9" value="a"> Génie Civil
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q9" value="b"> Génie Informatique
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q9" value="c"> Génie Mécanique
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q9" value="d"> Génie Électrique
+                        </label>
+                    </div>
+                    
+                    <div class="question">
+                        <h3>10. Dans quel domaine ai-je réalisé un projet avec Arduino?</h3>
+                        <label class="option">
+                            <input type="radio" name="q10" value="a"> Développement mobile
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q10" value="b"> Intelligence artificielle
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q10" value="c"> IoT (Internet des Objets)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q10" value="d"> Développement web
+                        </label>
+                    </div>
+                    
+                    <div class="text-center" style="margin-top: 2rem;">
+                        <button type="button" onclick="submitQuiz()" class="btn">
+                            Soumettre le quiz
+                        </button>
+                        
+                        <button type="button" onclick="resetQuiz()" class="btn btn-secondary">
+                            Réinitialiser
+                        </button>
+                    </div>
+                </form>
+                
+                <div id="quizResult" class="quiz-result">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ben Abdallah Farah. Tous droits réservés.</p>
+        <p>Email: benabdallahfalah2112@gmail.com | Tél: 52309623</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
